@@ -1,5 +1,9 @@
 # 42Cursus-Born2beRoot
-This project is part of the 42Lisboa curriculum and aims to create a virtual machine running Debian, as well as setting up a server with SSH, UFW, and more.
+This project is part of the 42Lisboa curriculum and aims to create a virtual machine running Debian, as well as set up a server by installing and configuring multiple services and security rules such as APT, AppArmor, SSH, UFW, sudo, Password Policy, and Crontab.
+
+For more information see the [subject](https://github.com/dspereira/42Cursus-Born2beRoot/blob/main/en.subject.pdf).
+
+
 For this project, a CronJob was created to run a monitoring script every 10 minutes, logging system status information to the console as detailed below:
 
 - The architecture of your operating system and its kernel version.
@@ -13,6 +17,7 @@ For this project, a CronJob was created to run a monitoring script every 10 minu
 - The number of commands executed with the sudo program.
 
 ## Example
+![Example](https://github.com/dspereira/42Cursus-Born2beRoot/blob/main/monitoring-script-log.png)
 
 
 ## License
